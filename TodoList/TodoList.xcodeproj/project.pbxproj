@@ -27,6 +27,7 @@
 		D2F85AEB24F54A440051DD07 /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F85AEA24F54A440051DD07 /* Int+Timepiece.swift */; };
 		D2F85AED24F54A470051DD07 /* SATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F85AEC24F54A470051DD07 /* SATextField.swift */; };
 		D2F85AEF24F54A4A0051DD07 /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F85AEE24F54A490051DD07 /* String+Timepiece.swift */; };
+		D2F85AF124F5500D0051DD07 /* TodoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F85AF024F5500D0051DD07 /* TodoDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		D2F85AEA24F54A440051DD07 /* Int+Timepiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Timepiece.swift"; sourceTree = "<group>"; };
 		D2F85AEC24F54A470051DD07 /* SATextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATextField.swift; sourceTree = "<group>"; };
 		D2F85AEE24F54A490051DD07 /* String+Timepiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Timepiece.swift"; sourceTree = "<group>"; };
+		D2F85AF024F5500D0051DD07 /* TodoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				D2B9A9E124F5328600CD2858 /* TodoItem.swift */,
 				D2B9A9E524F543B500CD2858 /* TodoList.swift */,
 				D2B9A9E324F5371D00CD2858 /* Home.swift */,
+				D2F85AF024F5500D0051DD07 /* TodoDetails.swift */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				D2B9A9E824F545FD00CD2858 /* Date.swift in Sources */,
 				D2B9A9AB24F52D3C00CD2858 /* SceneDelegate.swift in Sources */,
 				D2F85AED24F54A470051DD07 /* SATextField.swift in Sources */,
+				D2F85AF124F5500D0051DD07 /* TodoDetails.swift in Sources */,
 				D2B9A9B024F52D3C00CD2858 /* ContentView.swift in Sources */,
 				D2B9A9E424F5371D00CD2858 /* Home.swift in Sources */,
 				D2F85AE924F54A410051DD07 /* DateComponents+Timepiece.swift in Sources */,

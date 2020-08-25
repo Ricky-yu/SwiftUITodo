@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-class Todo : NSObject, NSCoding, Identifiable {
+class Todo: NSObject, Identifiable, NSCoding {
     func encode(with coder: NSCoder) {
         coder.encode(self.title, forKey: "title")
         coder.encode(self.dueDate, forKey: "dueDate")
@@ -46,7 +46,7 @@ struct TodoItem: View {
                 editingTodo = self.main.todos[self.todoIndex]
                 editingIndex = self.todoIndex
                 self.main.detailsTitle = editingTodo.title
-                self.main.detialsDueDate = editingTodo.dueDate
+                self.main.detailsDueDate = editingTodo.dueDate
                 self.main.detailsShowing = true
                 detailShouldUpdateTitle = true
             }) {
