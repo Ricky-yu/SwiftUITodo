@@ -10,9 +10,9 @@ import Foundation
 
 var myCalender: Calendar = Calendar.current
 
-let h_day: [Int: String] = [1: "周一", 2: "周二", 3: "周三", 4: "周四", 5: "周五", 6: "周六", 7: "周日"]
-let h_uday: [Int: String] = [-1: "昨天", 0: "今天", 1: "明天"]
-let h_week: [Int: String] = [0: "上", 1: "", 2: "下"]
+let h_day: [Int: String] = [1: "月曜日", 2: "火曜日", 3: "水曜日", 4: "木曜日", 5: "金曜日", 6: "土曜日", 7: "日曜日"]
+let h_uday: [Int: String] = [-1: "昨日", 0: "今日", 1: "明日"]
+let h_week: [Int: String] = [0: "先週", 1: "", 2: "来週"]
 
 
 func weekOfYear (date: Date) -> Int {
