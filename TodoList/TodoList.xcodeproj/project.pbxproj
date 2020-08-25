@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		511DC2BE24F5CCFE000A2080 /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 511DC2BD24F5CCFE000A2080 /* screen1.png */; };
+		511DC2C024F5CD04000A2080 /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 511DC2BF24F5CD04000A2080 /* screen2.png */; };
 		D2B9A9A924F52D3C00CD2858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B9A9A824F52D3C00CD2858 /* AppDelegate.swift */; };
 		D2B9A9AB24F52D3C00CD2858 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B9A9AA24F52D3C00CD2858 /* SceneDelegate.swift */; };
 		D2B9A9AE24F52D3C00CD2858 /* TodoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2B9A9AC24F52D3C00CD2858 /* TodoList.xcdatamodeld */; };
@@ -48,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		511DC2BD24F5CCFE000A2080 /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
+		511DC2BF24F5CD04000A2080 /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
 		D2B9A9A524F52D3C00CD2858 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B9A9A824F52D3C00CD2858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2B9A9AA24F52D3C00CD2858 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 		D2B9A9A724F52D3C00CD2858 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
+				511DC2BF24F5CD04000A2080 /* screen2.png */,
+				511DC2BD24F5CCFE000A2080 /* screen1.png */,
 				D2B9A9A824F52D3C00CD2858 /* AppDelegate.swift */,
 				D2B9A9AA24F52D3C00CD2858 /* SceneDelegate.swift */,
 				D2B9A9AF24F52D3C00CD2858 /* ContentView.swift */,
@@ -280,8 +286,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B9A9DE24F531FF00CD2858 /* Colors in Resources */,
+				511DC2BE24F5CCFE000A2080 /* screen1.png in Resources */,
 				D2B9A9DC24F531F700CD2858 /* AppIcon.appiconset in Resources */,
 				D2B9A9B824F52D3E00CD2858 /* LaunchScreen.storyboard in Resources */,
+				511DC2C024F5CD04000A2080 /* screen2.png in Resources */,
 				D2B9A9B524F52D3E00CD2858 /* Preview Assets.xcassets in Resources */,
 				D2B9A9B224F52D3E00CD2858 /* Assets.xcassets in Resources */,
 			);
