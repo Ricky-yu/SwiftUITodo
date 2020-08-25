@@ -18,8 +18,15 @@
 		D2B9A9CE24F52D3F00CD2858 /* TodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B9A9CD24F52D3F00CD2858 /* TodoListUITests.swift */; };
 		D2B9A9DC24F531F700CD2858 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = D2B9A9DB24F531F700CD2858 /* AppIcon.appiconset */; };
 		D2B9A9DE24F531FF00CD2858 /* Colors in Resources */ = {isa = PBXBuildFile; fileRef = D2B9A9DD24F531FE00CD2858 /* Colors */; };
-		D2B9A9E024F5320300CD2858 /* Third-Parties in Resources */ = {isa = PBXBuildFile; fileRef = D2B9A9DF24F5320300CD2858 /* Third-Parties */; };
 		D2B9A9E224F5328600CD2858 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B9A9E124F5328600CD2858 /* TodoItem.swift */; };
+		D2B9A9E424F5371D00CD2858 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B9A9E324F5371D00CD2858 /* Home.swift */; };
+		D2B9A9E624F543B500CD2858 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B9A9E524F543B500CD2858 /* TodoList.swift */; };
+		D2B9A9E824F545FD00CD2858 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B9A9E724F545FD00CD2858 /* Date.swift */; };
+		D2B9A9EA24F54A0000CD2858 /* Date+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B9A9E924F54A0000CD2858 /* Date+Timepiece.swift */; };
+		D2F85AE924F54A410051DD07 /* DateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F85AE824F54A410051DD07 /* DateComponents+Timepiece.swift */; };
+		D2F85AEB24F54A440051DD07 /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F85AEA24F54A440051DD07 /* Int+Timepiece.swift */; };
+		D2F85AED24F54A470051DD07 /* SATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F85AEC24F54A470051DD07 /* SATextField.swift */; };
+		D2F85AEF24F54A4A0051DD07 /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F85AEE24F54A490051DD07 /* String+Timepiece.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +64,15 @@
 		D2B9A9CF24F52D3F00CD2858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2B9A9DB24F531F700CD2858 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
 		D2B9A9DD24F531FE00CD2858 /* Colors */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Colors; sourceTree = "<group>"; };
-		D2B9A9DF24F5320300CD2858 /* Third-Parties */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Third-Parties"; sourceTree = "<group>"; };
 		D2B9A9E124F5328600CD2858 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		D2B9A9E324F5371D00CD2858 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D2B9A9E524F543B500CD2858 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		D2B9A9E724F545FD00CD2858 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		D2B9A9E924F54A0000CD2858 /* Date+Timepiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Timepiece.swift"; sourceTree = "<group>"; };
+		D2F85AE824F54A410051DD07 /* DateComponents+Timepiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateComponents+Timepiece.swift"; sourceTree = "<group>"; };
+		D2F85AEA24F54A440051DD07 /* Int+Timepiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Timepiece.swift"; sourceTree = "<group>"; };
+		D2F85AEC24F54A470051DD07 /* SATextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATextField.swift; sourceTree = "<group>"; };
+		D2F85AEE24F54A490051DD07 /* String+Timepiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Timepiece.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +127,12 @@
 				D2B9A9AA24F52D3C00CD2858 /* SceneDelegate.swift */,
 				D2B9A9AF24F52D3C00CD2858 /* ContentView.swift */,
 				D2B9A9B124F52D3E00CD2858 /* Assets.xcassets */,
-				D2B9A9DF24F5320300CD2858 /* Third-Parties */,
+				D2B9A9E724F545FD00CD2858 /* Date.swift */,
+				D2B9A9E924F54A0000CD2858 /* Date+Timepiece.swift */,
+				D2F85AE824F54A410051DD07 /* DateComponents+Timepiece.swift */,
+				D2F85AEA24F54A440051DD07 /* Int+Timepiece.swift */,
+				D2F85AEC24F54A470051DD07 /* SATextField.swift */,
+				D2F85AEE24F54A490051DD07 /* String+Timepiece.swift */,
 				D2B9A9DD24F531FE00CD2858 /* Colors */,
 				D2B9A9DB24F531F700CD2858 /* AppIcon.appiconset */,
 				D2B9A9B624F52D3E00CD2858 /* LaunchScreen.storyboard */,
@@ -121,6 +140,8 @@
 				D2B9A9AC24F52D3C00CD2858 /* TodoList.xcdatamodeld */,
 				D2B9A9B324F52D3E00CD2858 /* Preview Content */,
 				D2B9A9E124F5328600CD2858 /* TodoItem.swift */,
+				D2B9A9E524F543B500CD2858 /* TodoList.swift */,
+				D2B9A9E324F5371D00CD2858 /* Home.swift */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -258,7 +279,6 @@
 				D2B9A9DE24F531FF00CD2858 /* Colors in Resources */,
 				D2B9A9DC24F531F700CD2858 /* AppIcon.appiconset in Resources */,
 				D2B9A9B824F52D3E00CD2858 /* LaunchScreen.storyboard in Resources */,
-				D2B9A9E024F5320300CD2858 /* Third-Parties in Resources */,
 				D2B9A9B524F52D3E00CD2858 /* Preview Assets.xcassets in Resources */,
 				D2B9A9B224F52D3E00CD2858 /* Assets.xcassets in Resources */,
 			);
@@ -286,10 +306,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B9A9E224F5328600CD2858 /* TodoItem.swift in Sources */,
+				D2B9A9E624F543B500CD2858 /* TodoList.swift in Sources */,
 				D2B9A9A924F52D3C00CD2858 /* AppDelegate.swift in Sources */,
+				D2B9A9E824F545FD00CD2858 /* Date.swift in Sources */,
 				D2B9A9AB24F52D3C00CD2858 /* SceneDelegate.swift in Sources */,
+				D2F85AED24F54A470051DD07 /* SATextField.swift in Sources */,
 				D2B9A9B024F52D3C00CD2858 /* ContentView.swift in Sources */,
+				D2B9A9E424F5371D00CD2858 /* Home.swift in Sources */,
+				D2F85AE924F54A410051DD07 /* DateComponents+Timepiece.swift in Sources */,
 				D2B9A9AE24F52D3C00CD2858 /* TodoList.xcdatamodeld in Sources */,
+				D2F85AEF24F54A4A0051DD07 /* String+Timepiece.swift in Sources */,
+				D2F85AEB24F54A440051DD07 /* Int+Timepiece.swift in Sources */,
+				D2B9A9EA24F54A0000CD2858 /* Date+Timepiece.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
