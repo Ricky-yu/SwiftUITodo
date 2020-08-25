@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-class Todo : NSObject, NSCoding {
+class Todo : NSObject, NSCoding, Identifiable {
     func encode(with coder: NSCoder) {
         coder.encode(self.title, forKey: "title")
         coder.encode(self.dueDate, forKey: "dueDate")
