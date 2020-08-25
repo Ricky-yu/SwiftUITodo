@@ -23,7 +23,7 @@ struct TodoList: View {
                 ForEach(main.todos) { todo in
                     VStack {
                         if todo.i == 0 ||
-                            formatter.string(from: todo.dueDate) != formatter.string(from: self.todos[todo.i - 1].dueDate) {
+                            formatter.string(from: todo.dueDate) != formatter.string(from: self.main.todos[todo.i - 1].dueDate) {
                             HStack {
                                 Spacer().frame(width: 30)
                                 Text(date2Word(date: todo.dueDate))
@@ -32,7 +32,7 @@ struct TodoList: View {
                         }
                         HStack {
                             Spacer().frame(width: 20)
-                            TodoItem(main: main, todoIndex: .constant(todo.i))
+                            TodoItem(main: self.main, todoIndex: .constant(todo.i))
                                 .cornerRadius(10.0)
                                 .clipped()
                                 .shadow(color: Color("todoItemShadow"), radius: 5)
@@ -48,7 +48,7 @@ struct TodoList: View {
             .navigationBarTitle(Text("TodoList").foregroundColor(Color("theme")))
             .onAppear{
                 //初期化時Todoデータ設定する
-                if let data = UserDefault.standard.object("todos") as? Data {
+                if let data = UserDefaults.standard.object(forKey: "todos") as? Data {
                     let todoList = NSKeyedUnarchiver.unarchiveObject(with: data) as? [Todo] ?? []
                     for todo in todoList {
                         if !todo.checked {
