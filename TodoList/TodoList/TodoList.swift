@@ -7,13 +7,6 @@
 //
 
 import SwiftUI
-var exampleTodos: [Todo] = [
-    Todo(title: "Shopping", dueDate: Date()),
-    Todo(title: "Watch TV", dueDate: Date()),
-    Todo(title: "Sleep", dueDate: Date()),
-    Todo(title: "Do HomeWork", dueDate: Date()),
-    Todo(title: "Dinner", dueDate: Date())
-]
 
 struct TodoList: View {
     @ObservedObject var main: Main
@@ -46,21 +39,6 @@ struct TodoList: View {
             }
             .edgesIgnoringSafeArea(.bottom)
             .navigationBarTitle(Text("TodoList").foregroundColor(Color("theme")))
-            .onAppear{
-                //初期化時Todoデータ設定する
-                if let data = UserDefaults.standard.object(forKey: "todos") as? Data {
-                    let todoList = NSKeyedUnarchiver.unarchiveObject(with: data) as? [Todo] ?? []
-                    for todo in todoList {
-                        if !todo.checked {
-                            self.main.todos.append(todo)
-                        }
-                    }
-                    self.main.sort()
-                } else {
-                    self.main.todos = exampleTodos
-                    self.main.sort()
-                }
-            }
         }
     }
 }

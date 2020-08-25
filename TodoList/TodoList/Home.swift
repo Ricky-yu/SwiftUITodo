@@ -36,7 +36,6 @@ struct Home: View {
                 .blur(radius: main.detailsShowing ? 10 : 0)
             Button(action: {
                 editingMode = false
-                editingTodo = emptyTodoItem
                 detailShouldUpdateTitle = true
                 self.main.detailsTitle = ""
                 self.main.detailsDueDate = Date()
@@ -47,6 +46,18 @@ struct Home: View {
             .blur(radius: main.detailsShowing ? 10 : 0)
             TodoDetails(main: main)
                 .offset(x:0,y: main.detailsShowing ? 0 : UIScreen.main.bounds.height)
+        }.onAppear{
+            if let data = UserDefaults.standard.object(forKey: "todos") as? Data {
+                let todoList = NSKeyedUnarchiver.unarchiveObject(with: data) as? [Todo] ?? []
+                for todo in todoList {
+                    if !todo.checked {
+                        self.main.todos.append(todo)
+                    }
+                }
+                self.main.sort()
+            }else {
+                editingTodo = emptyTodoItem
+            }
         }
     }
 }
