@@ -9,7 +9,11 @@
 import UIKit
 import CoreData
 
+var formatter = DateFormatter()
+
 @UIApplicationMain
+
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
