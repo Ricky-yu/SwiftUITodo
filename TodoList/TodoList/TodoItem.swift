@@ -111,7 +111,7 @@ struct TodoItem: View {
                 
             }.onAppear() {
                  self.checked = self.main.todos[self.todoIndex].checked
-            }.background(Color(self.checked ? "checkmark.square.filtodoItem-bg-checked" : "todoItem-bg"))
+            }.background(Color(self.checked ? "todoItem-bg-checked" : "todoItem-bg"))
                 .animation(.spring())
                 
         }
