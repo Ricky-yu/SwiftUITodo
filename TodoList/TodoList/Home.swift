@@ -26,8 +26,6 @@ class Main: ObservableObject {
         }
     }
 }
-
-
 struct Home: View {
     @ObservedObject var main: Main
     var body: some View {
