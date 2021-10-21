@@ -26,7 +26,9 @@ class Main: ObservableObject {
         }
     }
 }
-
+func aaa() {
+  let num = 21
+}
 struct Home: View {
     @ObservedObject var main: Main
     var body: some View {
