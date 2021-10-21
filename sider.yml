@@ -28,12 +28,9 @@ linter:
 #     norc: true
 
 # SwiftLint example. See https://help.sider.review/tools/swift/swiftlint
-#   swiftlint:
-#     target: Source/
-#     config: lint_yml/.swiftlint.yml
-#     ignore_warnings: true
-#     lenient: true
-#     enable-all-rules: true
+  swiftlint:
+    lenient: true
+    enable-all-rules: true
 
 # Ignore specific files. Example:
 # ignore:
