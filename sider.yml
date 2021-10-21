@@ -27,7 +27,7 @@ linter:
 #     severity: error
 #     norc: true
 
-#   # SwiftLint example. See https://help.sider.review/tools/swift/swiftlint
+# SwiftLint example. See https://help.sider.review/tools/swift/swiftlint
   swiftlint:
     root_dir: project/
      ignore_warnings: true
